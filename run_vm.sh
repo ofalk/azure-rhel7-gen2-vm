@@ -7,4 +7,5 @@ az vm create  \
     --image rhel-7 \
     --boot-diagnostics-storage lkernatstor \
     --admin-username cloud-user \
-    --ssh-key-value @/root/.ssh/id_rsa.pub
+    --ssh-key-value @/root/.ssh/id_rsa.pub \
+    --noreboot
