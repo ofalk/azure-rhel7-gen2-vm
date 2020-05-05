@@ -57,5 +57,8 @@ where you can run virt-install again a libvirtd with KVM, should be OK.
   https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10
 * [3] With a valid subscription from Red Hat, you can download it here:
   https://access.redhat.com/downloads/content/69/ver=/rhel---7/7.7/x86_64/product-software
-* [4] Any other Red Hat Enterprise Linux (RHEL) 7 version or version 8 should do it, but this has been tested with 7.7.
+* [4] Any other Red Hat Enterprise Linux (RHEL) 7 version should do it, but this has been tested with 7.7.
 * [5] You do not need to enable boot diagnostics and if, you'll definitely have to adapt the storage account name!!!
+
+If you're looking for creating a RHEL 8 image, have a look at this repository:
+https://github.com/ofalk/azure-rhel8-gen2-vm/
